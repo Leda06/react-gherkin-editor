@@ -1,15 +1,14 @@
 {
-  "name": "@smartbear/react-gherkin-editor",
+  "name": "@leda06/react-gherkin-editor",
   "version": "2.4.14",
   "description": "A Gherkin language editor for React.",
-  "homepage": "https://github.com/SmartBear/react-gherkin-editor",
+  "homepage": "https://github.com/leda06/react-gherkin-editor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SmartBear/react-gherkin-editor"
+    "url": "https://github.com/leda06/react-gherkin-editor"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "author": "SmartBear Software",
   "license": "MIT",
   "files": [
     "dist"
