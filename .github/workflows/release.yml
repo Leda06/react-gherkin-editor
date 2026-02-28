@@ -44,11 +44,6 @@ jobs:
       with:
         version: ${{ steps.package-version.outputs.current-version }}
 
-    - name: Publish npm package
-      run: yarn publish
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
     - name: Setup Node.js to publish to GitHub Packages
       uses: actions/setup-node@v4
       with:
